@@ -6,11 +6,12 @@ class Search extends Component {
     super(props)
 
     this.state = { 
-      term: '' 
+      term: 'Starting Value' 
     }
   }
 
   render() {
+
     return(
       <div>
         {/* bind input value to the state */}
