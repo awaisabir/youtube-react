@@ -6,7 +6,7 @@ class Search extends Component {
     super(props)
 
     this.state = { 
-      term: 'Starting Value' 
+      term: '' 
     }
   }
 
@@ -19,7 +19,6 @@ class Search extends Component {
           value = {this.state.term} 
           onChange={event => this.setState({ term: event.target.value })} 
         />
-        <div>{this.state.term}</div>
       </div>
     )
   }
